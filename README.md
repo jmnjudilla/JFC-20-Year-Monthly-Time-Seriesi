@@ -165,19 +165,21 @@ Stock behavior segmented by major economic eras.
 ```
 JFC-Monthly-Time-Series/
 │
-├── JFC Monthly Time Series.pbix   # Main Power BI report file
-└── README.md                      # This file
+├── README.md                          # This file
+└── screenshots/                       # Report page previews
+    ├── page1-trend-overview.png
+    ├── page2-growth-risk-cycles.png
+    └── page3-market-era-analysis.png
 ```
 
 ---
 
 ## 🚀 Getting Started
 
-1. Clone or download this repository
-2. Open `JFC Monthly Time Series.pbix` in **Power BI Desktop**
-3. Go to **Transform Data → Data Source Settings** and replace the API key with your own from [alphavantage.co](https://www.alphavantage.co/support/#api-key)
-4. Click **Refresh** to load the latest data
-5. Explore the three report pages
+1. Get a free API key from [alphavantage.co](https://www.alphavantage.co/support/#api-key)
+2. In Power BI Desktop, go to **Transform Data → Data Source Settings** and plug in your API key
+3. Click **Refresh** to load the latest data
+4. Explore the three report pages
 
 ---
 
